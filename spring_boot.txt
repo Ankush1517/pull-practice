@@ -1,0 +1,42 @@
+spring boot is like a framework that helps you to very easily create microservices and easy to deploy those(microservices). You can easily deploy your microservices more suitable for
+cloud based environments you can easily deploy your spring boot application jar on different services offered by these cloud providers.
+
+That's why we love liked by. These microservices even make your business robust. You can break your business into parts.
+Say there is requirement of pulling data and persisting. You can divide business workflow into two parts
+First service will pull and persist the data in database and second service will pull the data from database then again store
+it if you need or send it through http to some other service if required.
+
+In very less lines of code you can do lot of things.
+If you want to configure your database then it's very easy with springboot
+
+Microservice..
+
+Microservice means it's a small service. There are two service one is the "pull service" and second is the "process" service.. 
+If your pull service has gone down because of some reasons(developer deployed wrong jar), so in this case atleast your processing
+logic is not stopping it's deployed maybe to some other e2c instance.
+
+This makes your application decoupled. That is 'decoupling'. It makes it more robust.
+If some functionality is going down we could notify, use some protocols to use mail notification.
+If say service A is been handled by team's name and if service A goes down..
+service which is pinging all the service if it comes to know that service A has gone down it will drop a email notification to the
+team A
+
+So you will get this robust and resilient structure.
+
+
+*Characteristics of Springboot*
+
+It is opinionated
+You start with something(here we use spring initializer, we can use dev tools and add a lot of things which are preconfigured)
+    -It's not like you don't have anything and you have to configure everything from scratch.
+	
+Standalone
+  -If you are creating 10 microservices.
+  -you can independently deploy them. One service goes down you will not face issues with other if you have written a correct
+    exception handler
+	
+Production ready
+   -In just few days you can deploy something in your production(some small business feature, mvp)
+   
+   -Like you are building a banking application. So atleast like checking your bank balance you can create this feature and independently
+    deploy this feature without having to worry much about the deployment process because when you 
