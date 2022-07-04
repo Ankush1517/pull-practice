@@ -1,0 +1,8 @@
+
+ git repository(server) and git client. 
+ Git repository is that central place where all the code is stored.
+ If you want to work on that code, you have to get it on your system. 
+ Here we are starting that's why doing direct changes on repository.
+ This whole system of git client and git servers
+ 
+ 
